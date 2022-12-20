@@ -1,8 +1,13 @@
 {
 	"name": "vscode-extension-plugin",
 	"displayName": "vscode-extension-plugin",
-	"description": "",
-	"version": "0.0.1",
+	"description": "vue3的代码片段",
+	"version": "0.0.2",
+  "author": {
+    "email": "3265530469@qq.com",
+    "name": "zhangchunjie",
+    "url": "https://github.com/chunjie-zhang/vue3-vscode-snippets.git"
+  },
 	"engines": {
 		"vscode": "^1.74.0"
 	},
