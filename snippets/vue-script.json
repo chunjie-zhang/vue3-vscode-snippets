@@ -6,6 +6,13 @@
     ],
     "description": "import {...} from ..."
   },
+  "ref": {
+    "prefix": "vRef",
+    "body": [
+      "const ref = ref('')"
+    ],
+    "description": "import {...} from ..."
+  },
   "data": {
     "prefix": "data",
     "body": [
@@ -30,7 +37,7 @@
     "description": "setup"
   },
   "defineProps": {
-    "prefix": "vprops",
+    "prefix": "vProps",
     "body": [
       "const props = defineProps({\t",
       "\t${0:name} : ${1:value}\t",
@@ -39,16 +46,16 @@
     "description": "defineProps element"
   },
   "defineEmits": {
-    "prefix": "vemits",
+    "prefix": "vEmits",
     "body": [
-      "const props = defineEmits([\t",
-      "\t\t\t ${0: name}\t",
+      "const emits = defineEmits([\t",
+      "\t\tname\t",
       "])"
     ],
     "description": "defineEmits element"
   },
   "defineExpose": {
-    "prefix": "vexpose",
+    "prefix": "vExpose",
     "body": [
       "defineExpose({\t",
       "\t${0:name} : ${1:value}\t",
@@ -57,7 +64,7 @@
     "description": "defineExpose element"
   },
   "Computed": {
-    "prefix": "vcomputed",
+    "prefix": "vComputed",
     "body": [
       "const compoted = computed(() => {",
       "\t",
@@ -82,12 +89,5 @@
       "},"
     ],
     "description": "watchEffect value"
-  },
-  "console.log": {
-    "prefix": "clg",
-    "body": [
-      "console.log(`=======->${0}`,${0:name})"
-    ],
-    "description": "快速打印日志"
   }
 }

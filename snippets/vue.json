@@ -7,14 +7,42 @@
       "</template>",
       "\t",
       "<script setup lang='ts'>",
+      "import { ref } from vue;",
       "\t",
       "</script>",
       "\t",
-      "<style>",
+      "<style lang=\"$0\" scoped>",
       "\t",
       "</style>"
     ],
     "description": "vue模版初始化(默认setup语法糖和ts)"
+  },
+  "vue3-1": {
+    "prefix": "vue3-1",
+    "body": [
+      "<template>",
+      "\t\t$0",
+      "</template>",
+      "\t",
+      "<script>",
+      "import { ref } from vue;",
+      "\t",
+      "export default {",
+      "\t",
+      "\tsetup (props, ctx) {",
+      "\t",
+      "\t\treturn {",
+      "\t",
+      "\t\t}",
+      "\t}",
+      "}",
+      "</script>",
+      "\t",
+      "<style lang=\"$0\" scoped>",
+      "\t",
+      "</style>"
+    ],
+    "description": "vue模版初始化(默认setup函数糖)"
   },
   "template": {
     "prefix": "template",
