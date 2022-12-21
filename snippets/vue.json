@@ -42,7 +42,7 @@
       "\t",
       "</style>"
     ],
-    "description": "vue模版初始化(默认setup函数糖)"
+    "description": "vue模版初始化(默认setup函数)"
   },
   "template": {
     "prefix": "template",
@@ -62,7 +62,7 @@
       "\t$0",
       "</script>"
     ],
-    "description": "script with setup and tslang"
+    "description": "script 模版"
   },
   "style": {
     "prefix": "style",
@@ -71,7 +71,7 @@
       "\t",
       "</style>"
     ],
-    "description": "style element with lang attribute"
+    "description": "style 模版"
   },
   "styleCss": {
     "prefix": "css",
@@ -80,7 +80,7 @@
       "\t$0",
       "</style>"
     ],
-    "description": "css style"
+    "description": "css style 模版"
   },
   "styleScss": {
     "prefix": "scss",
@@ -89,7 +89,7 @@
       "\t$0",
       "</style>"
     ],
-    "description": "Scss style"
+    "description": "Scss style 模版"
   },
   "styleSass": {
     "prefix": "sass",
@@ -98,7 +98,7 @@
       "\t$0",
       "</style>"
     ],
-    "description": "Sass style"
+    "description": "Sass style 模版"
   },
   "styleLess": {
     "prefix": "less",
@@ -107,6 +107,6 @@
       "\t$0",
       "</style>"
     ],
-    "description": "Less style"
+    "description": "Less style 模版"
   }
 }

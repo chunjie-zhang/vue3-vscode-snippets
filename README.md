@@ -1,70 +1,48 @@
-# vscode-extension-plugin README
+# vue3-snippets-plugin
 
-This is the README for your extension "vscode-extension-plugin". After writing up a brief description, we recommend including the following sections.
+目前只适配vue3的 snippets 插件
 
-## Features
+## 目前支持的代码片段
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### vue模版片段
 
-For example if there is an image subfolder under your extension project workspace:
+|  关键词   |             代码片段     | 
+| :-----: | :----------------------------------------------------------: | :------: |
+| vue3 | `<template></template><script setup lang="ts"></script><style lang="" scoped></style>`   |
+|  vue3-1  | `<template></template><script>export default { setup() {return {}}}</script><style lang="" scoped></style>` | 
+| template | `<template><div></div></template>`   |
+| scripte | `<script setup lang="ts"></script>`   |
+| style | `<style lang="" scoped></style>`   |
+| scss| `<style lang="scss" scoped></style>`   |
+| Sass | `<style lang="sass" scoped></style>`   |
+| Less | `<style lang="less" scoped></style>`   |
 
-\!\[feature X\]\(images/feature-x.png\)
+### template片段
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+|  关键词   |             代码片段     | 
+| :-----: | :----------------------------------------------------------: | :------: |
+| vText | ` v-text="msg"`   |
+|  vHtml  | `v-html="html"` | 
+| vIf| `<template><div></div></template>`   |
+| vShow | ` v-show="show"`   |
+| vElse | `<style lang="" scoped></style>`   |
+| vElseIf| `<style lang="scss" scoped></style>`   |
+| vFor | ` v-for="(item, index) in items" :key="index"`   |
+| vBind | ` v-bind=""`   |
+| vModel | `v-model="something"`   |
+| vSlot | `v-slot=""`   |
+| vOnce | `v-once`   |
+| component | `<component :is="componentId"></component>`   |
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+### script片段
+|  关键词   |             代码片段     | 
+| :-----: | :----------------------------------------------------------: | :------: |
+| import | `import {  } from ''`   |
+|  vRef  | `const ref = ref('')` | 
+| setup | `setup (props, ctx) { return {}}`   |
+| vProps | `const props = defineProps({	name : value	})`   |
+| vEmits | `const emits = defineEmits([	name	])`   |
+| vExpose| `defineExpose({	name : value	})`   |
+| vComputed | `const compoted = computed(() => {}),`   |
+| vWatch | `watch( ref, (oldValue, newValue) => {},`   |
+| vWatchEffect | `watchEffect(() => {},`   |

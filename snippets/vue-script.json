@@ -11,18 +11,7 @@
     "body": [
       "const ref = ref('')"
     ],
-    "description": "import {...} from ..."
-  },
-  "data": {
-    "prefix": "data",
-    "body": [
-      "data() {",
-      "\treturn {",
-      "\t\t$1",
-      "\t}",
-      "},"
-    ],
-    "description": "data实例"
+    "description": "ref片段"
   },
   "setup": {
     "prefix": "setup",
@@ -34,7 +23,7 @@
       "\t}",
       "},"
     ],
-    "description": "setup"
+    "description": "setup片段"
   },
   "defineProps": {
     "prefix": "vProps",
@@ -43,7 +32,7 @@
       "\t${0:name} : ${1:value}\t",
       "})"
     ],
-    "description": "defineProps element"
+    "description": "defineProps片段"
   },
   "defineEmits": {
     "prefix": "vEmits",
@@ -52,7 +41,7 @@
       "\t\tname\t",
       "])"
     ],
-    "description": "defineEmits element"
+    "description": "defineEmits 片段"
   },
   "defineExpose": {
     "prefix": "vExpose",
@@ -61,7 +50,7 @@
       "\t${0:name} : ${1:value}\t",
       "})"
     ],
-    "description": "defineExpose element"
+    "description": "defineExpose 片段"
   },
   "Computed": {
     "prefix": "vComputed",
@@ -70,7 +59,7 @@
       "\t",
       "}),"
     ],
-    "description": "computed value"
+    "description": "computed 片段"
   },
   "watch": {
     "prefix": "vWatch",
@@ -79,7 +68,7 @@
       "\t",
       "},"
     ],
-    "description": "watch value"
+    "description": "watch 片段"
   },
   "watchEffect": {
     "prefix": "vWatchEffect",
@@ -88,6 +77,6 @@
       "\t",
       "},"
     ],
-    "description": "watchEffect value"
+    "description": "watchEffect 片段"
   }
 }
